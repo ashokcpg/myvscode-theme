@@ -1,0 +1,25 @@
+{
+    "name": "theme-ashok",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "ashokcpg",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "Ashok",
+                "label": "%themeLabel%",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ashok-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ashokcpg/"
+    }
+}
